@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the Button 1`] = `
+.emotion-0 {
+  color: red;
+}
+
+.emotion-0 {
+  color: red;
+}
+
+<body>
+  <div>
+    <button
+      class="emotion-0"
+    >
+      Hello World
+    </button>
+  </div>
+</body>
+`;

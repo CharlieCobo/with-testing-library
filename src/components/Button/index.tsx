@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React from "react";
 import { ButtonStyled } from "./styles";
 
 interface ButtonProps {
@@ -6,6 +6,6 @@ interface ButtonProps {
   label: string;
 }
 
-export const Button: FC<ButtonProps> = ({ handleClick, label }) => {
+export const Button: React.FC<ButtonProps> = ({ handleClick, label }) => {
   return <ButtonStyled onClick={handleClick}>{label}</ButtonStyled>;
 };
